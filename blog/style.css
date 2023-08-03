@@ -1,0 +1,154 @@
+  /* Custom CSS styles */
+  body {
+    scroll-behavior: smooth;
+    font-family: Arial, sans-serif;
+    background-color: #322653;
+  }
+
+  .container {
+    padding-top: 20px;
+  }
+  .header {
+    width: 100vw;
+    height: 70px;
+
+  }
+  .navbar1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 70px;
+    gap: 20px;
+    position: fixed;
+    z-index: 1;
+    background-color:#13101b;
+    border-bottom: 1px solid #572383;
+    width: 100vw;
+  }
+  
+  .name {
+    margin-left: 20px;
+    font-size: 20pt;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+  }
+  .header span {
+    color:#9b3fe7;
+  }
+
+  .list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+    margin-top: 15px;
+  }
+  .list-item {
+    list-style: none;
+  }
+  .list-item a {
+    text-decoration: none;
+    font-size: 14pt;
+    color: rgb(255, 255, 255);
+    font-family: cursive;
+  }
+
+  .list-item a:hover {
+    color: #9b3fe7;
+    font-size: 15pt;
+  }
+
+  .list-item a::after {
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    display: block;
+  }
+
+  .list-item a:hover::after {
+    width: 100%;
+    transition: width 0.3s linear;
+  }
+
+  h1 {
+    color:#8b77a2
+  }
+  h1 span {
+    color: #ffffff;
+  }
+  .post h2 {
+    color:#9e46eb
+  }
+  .post p {
+    color: #8f8a9e;
+  }
+  .post {
+    background-color: #13101b;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  .title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .author{
+    font-size:x-small;
+    color:#8d849b
+  }
+  hr {
+    height: 1px;
+    border-top: 0;
+    background-color: #a09da6;
+  }
+  .footer {
+font-size: medium;
+background-color:#13101b;
+}
+
+.row {
+color: white;
+}
+.row > li{
+color: #989898;
+}
+.row a{
+color: #989898;
+}
+.row > li:hover,.row a:hover{
+color:#9940e7
+}
+.row > p{
+color: rgba(125, 198, 248, 0.86);
+}
+.btn{
+color: white !important;
+}
+.flex-column{
+  gap:20px;
+}
+.form-label{
+color: #c0c0c0;
+}
+.form-control{
+  border:2px solid  #aa41ff;
+}
+.copy-rights{
+color:#9b3fe7;
+}
+.heading{
+
+margin-bottom: 20px;
+color: white;
+font-size: 25px;
+}
+.butt{
+    background-color: #572383 !important;
+    border: 1px #ffffff;
+}
+.butt:hover{
+    background-color: #322653 !important;
+}
